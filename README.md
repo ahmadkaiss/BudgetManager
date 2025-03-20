@@ -33,3 +33,51 @@ budget_data = {
         }
     ]
 }
+
+## Function Documentation
+
+### Functions to Be Implemented
+
+The implementation will be on the following functions:
+
+1. **Add Income**
+   - Function Name: `add_income(data)`
+   - Description: Adds an income transaction to the `transactions` list and updates the `balance`.
+   - Parameters:
+     - `data`: The `budget_data` dictionary.
+   - Returns: Updated `budget_data` dictionary.
+
+2. **Add Expense**
+   - Function Name: `add_expense(data)`
+   - Description: Adds an expense transaction to the `transactions` list and updates the `balance`.
+   - Parameters:
+     - `data`: The `budget_data` dictionary.
+   - Returns: Updated `budget_data` dictionary.
+
+3. **Show Balance**
+   - Function Name: `show_balance(data)`
+   - Description: Displays the current balance from the `budget_data` dictionary.
+   - Parameters:
+     - `data`: The `budget_data` dictionary.
+   - Returns: `None` (This function only prints the balance and does not modify or return any data.)
+
+4. **Show Transaction History**
+   - Function Name: `show_transaction_history(data)`
+   - Description: Displays all transactions stored in the `transactions` list.
+   - Parameters:
+     - `data`: The `budget_data` dictionary.
+   - Returns: `None` (This function only prints the transaction history and does not modify or return any data.)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
