@@ -5,10 +5,22 @@ The budget manager stores financial transactions in a dictionary:
 
 ```python
 budget_data = {
-    "balance": 500,
+   "metadata": {
+        "balance": 500,
+        "payment_method": "Credit Card"
+   }
+
     "transactions": [
-        {"type": "income", "amount": 1000, "description": "Salary"},
-        {"type": "expense", "amount": 500, "description": "Groceries"}
+        {
+         "type": "income",
+         "cashflow": 1000,
+         "label": "Salary"
+       },
+        {
+           "type": "expense",
+           "cashflow": 500,
+           "label": "Groceries"
+        }
     ]
 }
 
