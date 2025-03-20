@@ -33,6 +33,8 @@ budget_data = {
         }
     ]
 }
+```
+
 
 ## Function Documentation
 
@@ -67,6 +69,9 @@ The implementation will be on the following functions:
    - Parameters:
      - `data`: The `budget_data` dictionary.
    - Returns: `None` (This function only prints the transaction history and does not modify or return any data.)
+     
+
+
 
 
 
