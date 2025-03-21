@@ -8,9 +8,8 @@ def addIncome(totalIncome):
 
 #The funtion should update the budget_data and remember to update the variable Balance
 def addExpense(totalIncome):
-    #
-    #
-    #
+totalIncome['Expense'] = totalIncome
+return totalIncome
     return totalIncome
 
 #The funtion should return the balance 
